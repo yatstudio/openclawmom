@@ -36,13 +36,13 @@ export default function Hero({ locale, dict }: HeroProps) {
 
         {/* Subtitle */}
         <p className="text-base sm:text-lg md:text-xl font-semibold mb-3 sm:mb-4 px-2" style={{ color: '#0f172a' }}>
-          {isZh ? '从零开始，7天掌握你的 AI 私人助理' : 'Your AI assistant that actually does things'}
+          {isZh ? '龙虾妈妈，OpenClaw 学习导航站' : 'Your AI assistant that actually does things'}
         </p>
 
         {/* Secondary tagline */}
         <p className="text-xs sm:text-sm md:text-base mb-6 sm:mb-10 max-w-2xl mx-auto px-3" style={{ color: '#55627a' }}>
           {isZh 
-            ? '功能尽量实用、路径尽量清晰：按学习路径、技能目录、资源库三条线快速上手。'
+            ? '学习路径、技能目录、精选资源都帮你整理好了，从入门到进阶都能找到。'
             : 'Find what you need fast via learning path, skills directory, and curated resource hub.'
           }
         </p>
